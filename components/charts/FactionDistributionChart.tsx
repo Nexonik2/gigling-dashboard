@@ -47,7 +47,7 @@ export default function FactionDistributionChart({ data }: { data: any[] }) {
           cursor={{ fill: '#1e293b', opacity: 0.5 }}
           contentStyle={{ backgroundColor: '#0f172a', borderColor: '#334155', borderRadius: '8px' }}
           itemStyle={{ color: '#10b981' }}
-          formatter={(value: number | string | undefined) => [`${value || 0} Racers`, 'Count']}
+          formatter={(value: any) => [`${value || 0} Racers`, 'Count']}
         />
         <Bar dataKey="count" fill="#10b981" radius={[4, 4, 0, 0]} />
       </BarChart>

@@ -86,7 +86,7 @@ export default function PlayerPerformanceCharts({ filteredRaces }: PlayerPerform
           <div className="h-64 mt-2 w-full flex-grow">
             {allFree ? (
               <div className="h-full w-full flex items-center justify-center rounded-lg border border-dashed border-slate-700 bg-slate-800/50">
-                <p className="text-slate-400 text-sm italic">Earnings unavailable: Only free races played.</p>
+                <p className="text-slate-400 text-sm italic">Earnings momentum unavailable: Only free races played.</p>
               </div>
             ) : noPaidWins ? (
               <div className="h-full w-full flex items-center justify-center rounded-lg border border-dashed border-slate-700 bg-slate-800/50">
@@ -160,7 +160,7 @@ export default function PlayerPerformanceCharts({ filteredRaces }: PlayerPerform
                 cursor={{ strokeDasharray: '3 3' }}
                 contentStyle={{ backgroundColor: '#0f172a', borderColor: '#334155', borderRadius: '8px' }}
                 itemStyle={{ color: '#f8fafc' }}
-                formatter={(value: number, name: string, props: any) => [value, `Avg Finish (${props.payload.tempName})`]}
+                formatter={(value: any, name: any, props: any) => [value, `Avg Finish (${props.payload?.tempName ?? 'N/A'})`]}
               />
               <Scatter name="Conditions" data={conditionsData}>
                 {conditionsData.map((entry, index) => (
