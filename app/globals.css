@@ -1,26 +1,85 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme {
+  /* Core Backgrounds */
+  --color-app-bg: #0d1117;
+  --color-app-surface: #161b22;
+  --color-app-border: #30363d;
+  --color-interactive: #38bdf8; /* Tailwind Sky-400 */
+
+  /* Typography Colors */
+  --color-text-main: #f0f6fc;
+  --color-text-muted: #8b949e;
+
+  /* Semantic Colors */
+  --color-accent-gold: #eab308;
+  --color-status-win: #22c55e;
+  --color-status-loss: #ef4444;
+
+  /* Rarity Colors (Solid) */
+  --color-rarity-uncommon: #22c55e;
+  --color-rarity-rare: #3b82f6;
+  --color-rarity-epic: #a855f7;
+  --color-rarity-legendary: #f59e0b;
+  --color-rarity-relic: #ef4444;
+
+  /* Faction Colors (Solid) */
+  --color-faction-crusader: #ef4444;
+  --color-faction-summoner: #eab308;
+  --color-faction-archon: #3b82f6;
+  --color-faction-foxglove: #22c55e;
+  --color-faction-chobo: #ffffff;
+  --color-faction-athena: #a855f7;
+  --color-faction-overseer: #f97316;
+
+  /* Gender Colors */
+  --color-gender-male: #3b82f6;
+  --color-gender-female: #ec4899;
+
+  /* Track Heat Colors */
+  --color-track-cold: #60a5fa;
+  --color-track-neutral: #a3e635;
+  --color-track-hot: #ef4444;
+
+  /* Fonts */
+  --font-retro: "Press Start 2P", monospace;
+  --font-sans: "Inter", sans-serif;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@layer base {
+  body {
+    @apply bg-app-bg text-text-main font-sans antialiased;
+  }
+  
+  h1, h2, h3 {
+    @apply font-retro tracking-wide;
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@layer utilities {
+  /* Rarity Gradient Utilities */
+  .text-rarity-giga {
+    background-image: linear-gradient(to right, #ff4500, #ffa800, #9acd32, #0ea5e9, #8b5cf6, #ff1493);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+  }
+  
+  .bg-rarity-giga {
+    background-image: linear-gradient(to right, #ff4500, #ffa800, #9acd32, #0ea5e9, #8b5cf6, #ff1493);
+  }
+
+  /* Faction Gradient Utilities */
+  .text-faction-gigus {
+    background-image: linear-gradient(to right, #22c55e, #4c1d95);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+  }
+
+  .bg-faction-gigus {
+    background-image: linear-gradient(to right, #22c55e, #4c1d95);
+  }
 }
