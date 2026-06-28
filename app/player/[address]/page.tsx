@@ -15,8 +15,8 @@ export default function PlayerProfile() {
 
   // --- State for Client-Side Filters & UX ---
   const [hideFreeRaces, setHideFreeRaces] = useState(false);
-  const [weatherFilter, setWeatherFilter] = useState('All');
-  const [lengthFilter, setLengthFilter] = useState('All');
+  const [weatherFilters, setWeatherFilters] = useState<string[]>([]);
+  const [lengthFilters, setLengthFilters] = useState<string[]>([]);
   const [copied, setCopied] = useState(false);
 
   // Fetch Abstract Global Wallet identity
@@ -85,18 +85,18 @@ export default function PlayerProfile() {
   const availableLengths = Array.from(new Set(settledRaces.map((r: any) => r.trackLength))).sort((a: any, b: any) => a - b) as number[];
   const availableWeathers = Array.from(new Set(settledRaces.map((r: any) => r.raceTemp))) as string[];
 
-  // 3. Apply user UI filters
+  // 3. Apply user UI filters (Updated for Multi-Select)
   const filteredRaces = settledRaces.filter((race: any) => {
     if (hideFreeRaces && race.payout === "0") return false;
-    if (weatherFilter !== 'All' && race.raceTemp !== weatherFilter) return false;
-    if (lengthFilter !== 'All' && race.trackLength.toString() !== lengthFilter) return false;
+    if (weatherFilters.length > 0 && !weatherFilters.includes(race.raceTemp)) return false;
+    if (lengthFilters.length > 0 && !lengthFilters.includes(race.trackLength.toString())) return false;
     return true;
   });
 
   const handleClearFilters = () => {
     setHideFreeRaces(false);
-    setLengthFilter('All');
-    setWeatherFilter('All');
+    setLengthFilters([]);
+    setWeatherFilters([]);
   };
 
   const handleCopyAddress = () => {
@@ -185,14 +185,14 @@ export default function PlayerProfile() {
 
           <PlayerPerformanceCharts filteredRaces={filteredRaces} />
 
-          <div className="bg-slate-800 rounded-xl border border-white/5 overflow-hidden shadow-lg">
+          <div className="bg-slate-800 rounded-xl border border-white/5 shadow-lg">
             <RaceFilters 
               hideFreeRaces={hideFreeRaces}
               setHideFreeRaces={setHideFreeRaces}
-              lengthFilter={lengthFilter}
-              setLengthFilter={setLengthFilter}
-              weatherFilter={weatherFilter}
-              setWeatherFilter={setWeatherFilter}
+              lengthFilters={lengthFilters}
+              setLengthFilters={setLengthFilters}
+              weatherFilters={weatherFilters}
+              setWeatherFilters={setWeatherFilters}
               availableLengths={availableLengths}
               availableWeathers={availableWeathers}
             />

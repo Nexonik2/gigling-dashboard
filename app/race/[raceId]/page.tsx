@@ -5,7 +5,7 @@ import { useParams } from 'next/navigation';
 import Link from 'next/link';
 import { fetchGigaverseData } from '../../../lib/api';
 import { formatWei } from '../../../lib/utils';
-import RecentRaces from '../../../components/RecentRaces';
+import BackButton from "../../../components/ui/BackButton";
 
 export default function RaceDetails() {
   // Extract the dynamic ID from the URL
@@ -21,18 +21,12 @@ export default function RaceDetails() {
   return (
     <main className="max-w-5xl mx-auto pb-12 p-6">
       {/* Back Navigation */}
-      <div className="mb-8">
-        <Link 
-          href="/" 
-          className="text-emerald-400 hover:text-emerald-300 flex items-center gap-2 font-medium transition-colors"
-        >
-          ← Back to Dashboard
-        </Link>
+      <div>
+        <BackButton />
+        <h1 className="text-4xl font-extrabold mb-8 text-slate-100 tracking-tight">
+          Race Details: <span className="text-[var(--color-interactive)]">#{raceId}</span>
+        </h1>
       </div>
-
-      <h1 className="text-4xl font-extrabold mb-8 text-slate-100 tracking-tight">
-        Race Details: <span className="text-emerald-400">#{raceId}</span>
-      </h1>
 
       {/* Loading State */}
       {isLoading && (
@@ -58,21 +52,21 @@ export default function RaceDetails() {
               </p>
             </div>
             <div className="bg-slate-800 p-5 rounded-xl border border-slate-700 shadow-md">
-              <span className="text-slate-400 text-sm font-medium uppercase tracking-wider">Track</span>
+              <span className="text-slate-400 text-sm font-medium uppercase tracking-wider">Track Length</span>
+              <p className="text-lg text-slate-100 font-bold mt-1">
+                {data.trackLength}m
+              </p>
+            </div>
+            <div className="bg-slate-800 p-5 rounded-xl border border-slate-700 shadow-md">
+              <span className="text-slate-400 text-sm font-medium uppercase tracking-wider">Weather</span>
               <p className="text-lg text-slate-100 font-bold mt-1 capitalize">
-                {data.trackLength}m • {data.raceTemp}
+                {data.raceTemp}
               </p>
             </div>
             <div className="bg-slate-800 p-5 rounded-xl border border-slate-700 shadow-md">
               <span className="text-slate-400 text-sm font-medium uppercase tracking-wider">Entry Fee</span>
               <p className="text-lg text-slate-100 font-bold mt-1">
-                {formatWei(data.entryFee)} Tokens
-              </p>
-            </div>
-            <div className="bg-slate-800 p-5 rounded-xl border border-slate-700 shadow-md">
-              <span className="text-slate-400 text-sm font-medium uppercase tracking-wider">Total Pool</span>
-              <p className="text-lg text-emerald-400 font-bold mt-1">
-                {formatWei(data.pool)} Tokens
+                {data.entryFee === "0" || data.entryFee === 0 ? "FREE" : `${formatWei(data.entryFee)} ETH`}
               </p>
             </div>
           </div>
@@ -116,7 +110,7 @@ export default function RaceDetails() {
                         <td className="p-4">
                           <Link 
                             href={`/gigling/${petId}`} 
-                            className="text-emerald-400 hover:text-emerald-300 font-bold flex items-center gap-2 transition-colors"
+                            className="text-[var(--color-interactive)] hover:opacity-80 font-bold flex items-center gap-2 transition-opacity"
                           >
                             {petId}
                             {entryData?.juiced && (
@@ -130,7 +124,7 @@ export default function RaceDetails() {
                           {entryData ? (
                             <Link 
                               href={`/player/${entryData.ownerAddress}`}
-                              className="text-emerald-400 hover:text-emerald-300 transition-colors"
+                              className="text-[var(--color-interactive)] hover:opacity-80 transition-opacity"
                             >
                               {shortAddress}
                             </Link>

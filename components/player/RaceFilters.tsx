@@ -1,12 +1,13 @@
 import React from 'react';
+import MultiSelectDropdown from '../ui/MultiSelectDropdown';
 
 interface RaceFiltersProps {
   hideFreeRaces: boolean;
   setHideFreeRaces: (val: boolean) => void;
-  lengthFilter: string;
-  setLengthFilter: (val: string) => void;
-  weatherFilter: string;
-  setWeatherFilter: (val: string) => void;
+  lengthFilters: string[];
+  setLengthFilters: (val: string[]) => void;
+  weatherFilters: string[];
+  setWeatherFilters: (val: string[]) => void;
   availableLengths: number[];
   availableWeathers: string[];
 }
@@ -14,16 +15,16 @@ interface RaceFiltersProps {
 export default function RaceFilters({
   hideFreeRaces,
   setHideFreeRaces,
-  lengthFilter,
-  setLengthFilter,
-  weatherFilter,
-  setWeatherFilter,
+  lengthFilters,
+  setLengthFilters,
+  weatherFilters,
+  setWeatherFilters,
   availableLengths,
   availableWeathers
 }: RaceFiltersProps) {
   return (
-    <div className="p-5 border-b border-slate-700 bg-slate-850 flex flex-col md:flex-row md:items-center justify-between gap-4">
-      <h2 className="text-xl font-bold text-slate-100">Race History</h2>
+    <div className="p-5 border-b border-app-border bg-app-surface flex flex-col md:flex-row md:items-center justify-between gap-4 rounded-t-xl">
+      <h2 className="text-xl font-bold text-text-main">Race History</h2>
       
       <div className="flex flex-wrap items-center gap-3">
         {/* Hide Free Races Toggle */}
@@ -31,36 +32,29 @@ export default function RaceFilters({
           onClick={() => setHideFreeRaces(!hideFreeRaces)}
           className={`px-4 py-2 rounded-lg text-sm font-bold transition-colors border ${
             hideFreeRaces 
-              ? 'bg-emerald-500/20 text-emerald-400 border-emerald-500/50' 
-              : 'bg-slate-900 text-slate-400 border-slate-700 hover:bg-slate-750'
+              ? 'bg-interactive/20 text-interactive border-interactive/50' 
+              : 'bg-app-bg text-text-muted border-app-border hover:bg-app-surface'
           }`}
         >
           {hideFreeRaces ? 'Show Free Races' : 'Hide Free Races'}
         </button>
 
-        {/* Length Filter */}
-        <select 
-          value={lengthFilter}
-          onChange={(e) => setLengthFilter(e.target.value)}
-          className="bg-slate-900 text-slate-200 text-sm rounded-lg px-3 py-2 border border-slate-700 focus:outline-none focus:border-emerald-500"
-        >
-          <option value="All">All Lengths</option>
-          {availableLengths.map((len) => (
-            <option key={len} value={len.toString()}>{len}m</option>
-          ))}
-        </select>
+        {/* Multi-Select: Length Filters */}
+        <MultiSelectDropdown
+          label="Length"
+          options={availableLengths.map(String)}
+          selectedValues={lengthFilters}
+          onChange={setLengthFilters}
+          formatOption={(val) => `${val}m`}
+        />
 
-        {/* Weather Filter */}
-        <select 
-          value={weatherFilter}
-          onChange={(e) => setWeatherFilter(e.target.value)}
-          className="bg-slate-900 text-slate-200 text-sm rounded-lg px-3 py-2 border border-slate-700 focus:outline-none focus:border-emerald-500 capitalize"
-        >
-          <option value="All">All Weather</option>
-          {availableWeathers.map((temp) => (
-            <option key={temp} value={temp}>{temp}</option>
-          ))}
-        </select>
+        {/* Multi-Select: Weather Filters */}
+        <MultiSelectDropdown
+          label="Weather"
+          options={availableWeathers}
+          selectedValues={weatherFilters}
+          onChange={setWeatherFilters}
+        />
       </div>
     </div>
   );

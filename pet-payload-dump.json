@@ -1,0 +1,2582 @@
+{
+  "https://gigaverse.io/api/racing/pets/9141/stats": {
+    "success": true,
+    "stats": {
+      "petId": 9141,
+      "totalRaces": 60,
+      "wins": 52,
+      "podiums": 58,
+      "jackpotWins": 0,
+      "weiSpent": "11500000000000000",
+      "weiWon": "32947875000000000",
+      "weiNet": "21447875000000000",
+      "recent": [
+        {
+          "raceId": 13891,
+          "phase": 3,
+          "rank": 0,
+          "payoutKind": "placement",
+          "weiEntry": "0",
+          "weiRaceAmount": "0",
+          "weiJackpotAmount": "0",
+          "weiPayout": "0",
+          "settledAt": 1782324280
+        },
+        {
+          "raceId": 13824,
+          "phase": 3,
+          "rank": 0,
+          "payoutKind": "placement",
+          "weiEntry": "0",
+          "weiRaceAmount": "0",
+          "weiJackpotAmount": "0",
+          "weiPayout": "0",
+          "settledAt": 1782312406
+        },
+        {
+          "raceId": 13800,
+          "phase": 3,
+          "rank": 0,
+          "payoutKind": "placement",
+          "weiEntry": "0",
+          "weiRaceAmount": "0",
+          "weiJackpotAmount": "0",
+          "weiPayout": "0",
+          "settledAt": 1782307511
+        },
+        {
+          "raceId": 13799,
+          "phase": 3,
+          "rank": 0,
+          "payoutKind": "placement",
+          "weiEntry": "0",
+          "weiRaceAmount": "0",
+          "weiJackpotAmount": "0",
+          "weiPayout": "0",
+          "settledAt": 1782307177
+        },
+        {
+          "raceId": 13272,
+          "phase": 3,
+          "rank": 0,
+          "payoutKind": "placement",
+          "weiEntry": "0",
+          "weiRaceAmount": "0",
+          "weiJackpotAmount": "0",
+          "weiPayout": "0",
+          "settledAt": 1782219104
+        },
+        {
+          "raceId": 13271,
+          "phase": 3,
+          "rank": 0,
+          "payoutKind": "placement",
+          "weiEntry": "0",
+          "weiRaceAmount": "0",
+          "weiJackpotAmount": "0",
+          "weiPayout": "0",
+          "settledAt": 1782218751
+        },
+        {
+          "raceId": 13267,
+          "phase": 3,
+          "rank": 0,
+          "payoutKind": "placement",
+          "weiEntry": "0",
+          "weiRaceAmount": "0",
+          "weiJackpotAmount": "0",
+          "weiPayout": "0",
+          "settledAt": 1782218401
+        },
+        {
+          "raceId": 12712,
+          "phase": 3,
+          "rank": 0,
+          "payoutKind": "placement",
+          "weiEntry": "0",
+          "weiRaceAmount": "0",
+          "weiJackpotAmount": "0",
+          "weiPayout": "0",
+          "settledAt": 1782112866
+        },
+        {
+          "raceId": 12708,
+          "phase": 3,
+          "rank": 0,
+          "payoutKind": "placement",
+          "weiEntry": "0",
+          "weiRaceAmount": "0",
+          "weiJackpotAmount": "0",
+          "weiPayout": "0",
+          "settledAt": 1782112589
+        },
+        {
+          "raceId": 12706,
+          "phase": 3,
+          "rank": 0,
+          "payoutKind": "placement",
+          "weiEntry": "0",
+          "weiRaceAmount": "0",
+          "weiJackpotAmount": "0",
+          "weiPayout": "0",
+          "settledAt": 1782112325
+        },
+        {
+          "raceId": 12287,
+          "phase": 3,
+          "rank": 0,
+          "payoutKind": "placement",
+          "weiEntry": "0",
+          "weiRaceAmount": "0",
+          "weiJackpotAmount": "0",
+          "weiPayout": "0",
+          "settledAt": 1782035675
+        },
+        {
+          "raceId": 12284,
+          "phase": 3,
+          "rank": 0,
+          "payoutKind": "placement",
+          "weiEntry": "0",
+          "weiRaceAmount": "0",
+          "weiJackpotAmount": "0",
+          "weiPayout": "0",
+          "settledAt": 1782035375
+        },
+        {
+          "raceId": 12281,
+          "phase": 3,
+          "rank": 0,
+          "payoutKind": "placement",
+          "weiEntry": "0",
+          "weiRaceAmount": "0",
+          "weiJackpotAmount": "0",
+          "weiPayout": "0",
+          "settledAt": 1782035060
+        },
+        {
+          "raceId": 11826,
+          "phase": 3,
+          "rank": 0,
+          "payoutKind": "placement",
+          "weiEntry": "0",
+          "weiRaceAmount": "0",
+          "weiJackpotAmount": "0",
+          "weiPayout": "0",
+          "settledAt": 1781956344
+        },
+        {
+          "raceId": 11824,
+          "phase": 3,
+          "rank": 0,
+          "payoutKind": "placement",
+          "weiEntry": "0",
+          "weiRaceAmount": "0",
+          "weiJackpotAmount": "0",
+          "weiPayout": "0",
+          "settledAt": 1781955997
+        }
+      ]
+    }
+  },
+  "https://gigaverse.io/api/pets/9141": {
+    "status": 400,
+    "error": "Failed to fetch"
+  },
+  "https://gigaverse.io/api/racing/leaderboard/elo?petId=9141": {
+    "success": true,
+    "message": "ELO leaderboard loaded",
+    "entries": [
+      {
+        "rank": 1,
+        "petId": 9141,
+        "elo": 2032,
+        "eloRaceCount": 60,
+        "racesRun": 60,
+        "wins": 52,
+        "rarity": 6,
+        "faction": 4,
+        "gender": "Male",
+        "ownerAddress": "0x73a9ffdaaf53723f1d08403f613870cddd6e18fc",
+        "racePublic": {
+          "id": 9141,
+          "racesRun": 60,
+          "maxRaces": 60,
+          "revealsPerStat": {
+            "start": 12,
+            "speed": 13,
+            "stamina": 11,
+            "finish": 12
+          },
+          "startRange": {
+            "min": 79,
+            "max": 79
+          },
+          "speedRange": {
+            "min": 65,
+            "max": 65
+          },
+          "staminaRange": {
+            "min": 92,
+            "max": 92
+          },
+          "finishRange": {
+            "min": 83,
+            "max": 83
+          },
+          "traits": [
+            {
+              "id": "clutch",
+              "name": "Clutch",
+              "tier": 3
+            },
+            {
+              "id": "comeback",
+              "name": "Comeback",
+              "tier": 1
+            },
+            {
+              "id": "surger",
+              "name": "Surger",
+              "tier": 2
+            },
+            {
+              "id": "steady",
+              "name": "Steady",
+              "tier": 3
+            },
+            {
+              "id": "volatile",
+              "name": "Volatile",
+              "tier": 1
+            },
+            {
+              "id": "closer",
+              "name": "Closer",
+              "tier": 1
+            }
+          ],
+          "elo": 2032,
+          "eloRaceCount": 60,
+          "wins": 52
+        },
+        "rarityName": "Giga",
+        "factionName": "Archon",
+        "ownerSummary": {
+          "username": "suspicious",
+          "hasNoob": true,
+          "noobId": 14976,
+          "headSheetUrl": "https://jade-decent-lizard-287.mypinata.cloud/ipfs/bafkreicbe633fxfk5iho52v3agqd2svtsqg4rijzph5k5sl52z5exdpy2q",
+          "bodySheetUrl": "https://jade-decent-lizard-287.mypinata.cloud/ipfs/bafkreihciovtik7zcgl5ekxeqtxwt6yser3bsj2wcno24oajsd434427ga",
+          "energyValue": null,
+          "maxEnergy": null,
+          "romCount": 0,
+          "petCount": 98,
+          "gigabitCount": null,
+          "factionId": 1,
+          "isJuiced": true,
+          "juicedSeconds": 28524775,
+          "topRacingGigling": {
+            "petId": 9141,
+            "name": "#9141",
+            "rarity": 6,
+            "faction": 4,
+            "gender": "Male",
+            "elo": 2032
+          }
+        }
+      },
+      {
+        "rank": 2,
+        "petId": 6862,
+        "elo": 2004,
+        "eloRaceCount": 60,
+        "racesRun": 60,
+        "wins": 42,
+        "rarity": 5,
+        "faction": 7,
+        "gender": "Male",
+        "ownerAddress": "0x73a9ffdaaf53723f1d08403f613870cddd6e18fc",
+        "racePublic": {
+          "id": 6862,
+          "racesRun": 60,
+          "maxRaces": 60,
+          "revealsPerStat": {
+            "start": 11,
+            "speed": 12,
+            "stamina": 12,
+            "finish": 13
+          },
+          "startRange": {
+            "min": 85,
+            "max": 85
+          },
+          "speedRange": {
+            "min": 98,
+            "max": 98
+          },
+          "staminaRange": {
+            "min": 86,
+            "max": 86
+          },
+          "finishRange": {
+            "min": 90,
+            "max": 90
+          },
+          "traits": [
+            {
+              "id": "comeback",
+              "name": "Comeback",
+              "tier": 2
+            },
+            {
+              "id": "fast-start",
+              "name": "Fast Start",
+              "tier": 2
+            },
+            {
+              "id": "clutch",
+              "name": "Clutch",
+              "tier": 1
+            },
+            {
+              "id": "surger",
+              "name": "Surger",
+              "tier": 2
+            },
+            {
+              "id": "steady",
+              "name": "Steady",
+              "tier": 2
+            }
+          ],
+          "elo": 2004,
+          "eloRaceCount": 60,
+          "wins": 42
+        },
+        "rarityName": "Relic",
+        "factionName": "Chobo",
+        "ownerSummary": {
+          "username": "suspicious",
+          "hasNoob": true,
+          "noobId": 14976,
+          "headSheetUrl": "https://jade-decent-lizard-287.mypinata.cloud/ipfs/bafkreicbe633fxfk5iho52v3agqd2svtsqg4rijzph5k5sl52z5exdpy2q",
+          "bodySheetUrl": "https://jade-decent-lizard-287.mypinata.cloud/ipfs/bafkreihciovtik7zcgl5ekxeqtxwt6yser3bsj2wcno24oajsd434427ga",
+          "energyValue": null,
+          "maxEnergy": null,
+          "romCount": 0,
+          "petCount": 98,
+          "gigabitCount": null,
+          "factionId": 1,
+          "isJuiced": true,
+          "juicedSeconds": 28524775,
+          "topRacingGigling": {
+            "petId": 9141,
+            "name": "#9141",
+            "rarity": 6,
+            "faction": 4,
+            "gender": "Male",
+            "elo": 2032
+          }
+        }
+      },
+      {
+        "rank": 3,
+        "petId": 13667,
+        "elo": 1962,
+        "eloRaceCount": 60,
+        "racesRun": 60,
+        "wins": 45,
+        "rarity": 6,
+        "faction": 5,
+        "gender": "Male",
+        "ownerAddress": "0x69c4cc0147fbc23965896fb18a1ccea92230ed1b",
+        "racePublic": {
+          "id": 13667,
+          "racesRun": 60,
+          "maxRaces": 60,
+          "revealsPerStat": {
+            "start": 10,
+            "speed": 11,
+            "stamina": 15,
+            "finish": 12
+          },
+          "startRange": {
+            "min": 93,
+            "max": 93
+          },
+          "speedRange": {
+            "min": 61,
+            "max": 61
+          },
+          "staminaRange": {
+            "min": 99,
+            "max": 99
+          },
+          "finishRange": {
+            "min": 99,
+            "max": 99
+          },
+          "traits": [
+            {
+              "id": "clutch",
+              "name": "Clutch",
+              "tier": 1
+            },
+            {
+              "id": "steady",
+              "name": "Steady",
+              "tier": 2
+            },
+            {
+              "id": "comeback",
+              "name": "Comeback",
+              "tier": 1
+            },
+            {
+              "id": "volatile",
+              "name": "Volatile",
+              "tier": 2
+            },
+            {
+              "id": "fast-start",
+              "name": "Fast Start",
+              "tier": 2
+            },
+            {
+              "id": "surger",
+              "name": "Surger",
+              "tier": 3
+            }
+          ],
+          "elo": 1962,
+          "eloRaceCount": 60,
+          "wins": 45
+        },
+        "rarityName": "Giga",
+        "factionName": "Foxglove",
+        "ownerSummary": {
+          "username": "afropengu",
+          "hasNoob": true,
+          "noobId": 3375,
+          "headSheetUrl": "https://jade-decent-lizard-287.mypinata.cloud/ipfs/bafkreicg2nunefd7tal5wmfan6lm4zwdbzwqn6z4bwbgihwypeizgi5cfm",
+          "bodySheetUrl": "https://jade-decent-lizard-287.mypinata.cloud/ipfs/bafkreia5jwvt6s6zcoxhwflp5vhqush22ylb4hgqpd6ajjcjn54lm5doxi",
+          "energyValue": null,
+          "maxEnergy": null,
+          "romCount": 0,
+          "petCount": 735,
+          "gigabitCount": null,
+          "factionId": 1,
+          "isJuiced": true,
+          "juicedSeconds": 41524299,
+          "topRacingGigling": {
+            "petId": 13667,
+            "name": "#13667",
+            "rarity": 6,
+            "faction": 5,
+            "gender": "Male",
+            "elo": 1962
+          }
+        }
+      },
+      {
+        "rank": 4,
+        "petId": 14536,
+        "elo": 1954,
+        "eloRaceCount": 60,
+        "racesRun": 60,
+        "wins": 38,
+        "rarity": 5,
+        "faction": 1,
+        "gender": "Male",
+        "ownerAddress": "0x73a9ffdaaf53723f1d08403f613870cddd6e18fc",
+        "racePublic": {
+          "id": 14536,
+          "racesRun": 60,
+          "maxRaces": 60,
+          "revealsPerStat": {
+            "start": 12,
+            "speed": 12,
+            "stamina": 12,
+            "finish": 12
+          },
+          "startRange": {
+            "min": 55,
+            "max": 55
+          },
+          "speedRange": {
+            "min": 51,
+            "max": 51
+          },
+          "staminaRange": {
+            "min": 83,
+            "max": 83
+          },
+          "finishRange": {
+            "min": 91,
+            "max": 91
+          },
+          "traits": [
+            {
+              "id": "clutch",
+              "name": "Clutch",
+              "tier": 3
+            },
+            {
+              "id": "closer",
+              "name": "Closer",
+              "tier": 1
+            },
+            {
+              "id": "faction-heart",
+              "name": "Faction Heart",
+              "tier": 2
+            },
+            {
+              "id": "fast-start",
+              "name": "Fast Start",
+              "tier": 2
+            },
+            {
+              "id": "comeback",
+              "name": "Comeback",
+              "tier": 1
+            }
+          ],
+          "elo": 1954,
+          "eloRaceCount": 60,
+          "wins": 38
+        },
+        "rarityName": "Relic",
+        "factionName": "Crusader",
+        "ownerSummary": {
+          "username": "suspicious",
+          "hasNoob": true,
+          "noobId": 14976,
+          "headSheetUrl": "https://jade-decent-lizard-287.mypinata.cloud/ipfs/bafkreicbe633fxfk5iho52v3agqd2svtsqg4rijzph5k5sl52z5exdpy2q",
+          "bodySheetUrl": "https://jade-decent-lizard-287.mypinata.cloud/ipfs/bafkreihciovtik7zcgl5ekxeqtxwt6yser3bsj2wcno24oajsd434427ga",
+          "energyValue": null,
+          "maxEnergy": null,
+          "romCount": 0,
+          "petCount": 98,
+          "gigabitCount": null,
+          "factionId": 1,
+          "isJuiced": true,
+          "juicedSeconds": 28524775,
+          "topRacingGigling": {
+            "petId": 9141,
+            "name": "#9141",
+            "rarity": 6,
+            "faction": 4,
+            "gender": "Male",
+            "elo": 2032
+          }
+        }
+      },
+      {
+        "rank": 5,
+        "petId": 18982,
+        "elo": 1921,
+        "eloRaceCount": 60,
+        "racesRun": 60,
+        "wins": 27,
+        "rarity": 6,
+        "faction": 6,
+        "gender": "Male",
+        "ownerAddress": "0x69c4cc0147fbc23965896fb18a1ccea92230ed1b",
+        "racePublic": {
+          "id": 18982,
+          "racesRun": 60,
+          "maxRaces": 60,
+          "revealsPerStat": {
+            "start": 15,
+            "speed": 10,
+            "stamina": 11,
+            "finish": 12
+          },
+          "startRange": {
+            "min": 90,
+            "max": 90
+          },
+          "speedRange": {
+            "min": 59,
+            "max": 59
+          },
+          "staminaRange": {
+            "min": 73,
+            "max": 73
+          },
+          "finishRange": {
+            "min": 91,
+            "max": 91
+          },
+          "traits": [
+            {
+              "id": "closer",
+              "name": "Closer",
+              "tier": 1
+            },
+            {
+              "id": "steady",
+              "name": "Steady",
+              "tier": 1
+            },
+            {
+              "id": "comeback",
+              "name": "Comeback",
+              "tier": 1
+            },
+            {
+              "id": "volatile",
+              "name": "Volatile",
+              "tier": 1
+            },
+            {
+              "id": "clutch",
+              "name": "Clutch",
+              "tier": 2
+            },
+            {
+              "id": "surger",
+              "name": "Surger",
+              "tier": 2
+            }
+          ],
+          "elo": 1921,
+          "eloRaceCount": 60,
+          "wins": 27
+        },
+        "rarityName": "Giga",
+        "factionName": "Summoner",
+        "ownerSummary": {
+          "username": "afropengu",
+          "hasNoob": true,
+          "noobId": 3375,
+          "headSheetUrl": "https://jade-decent-lizard-287.mypinata.cloud/ipfs/bafkreicg2nunefd7tal5wmfan6lm4zwdbzwqn6z4bwbgihwypeizgi5cfm",
+          "bodySheetUrl": "https://jade-decent-lizard-287.mypinata.cloud/ipfs/bafkreia5jwvt6s6zcoxhwflp5vhqush22ylb4hgqpd6ajjcjn54lm5doxi",
+          "energyValue": null,
+          "maxEnergy": null,
+          "romCount": 0,
+          "petCount": 735,
+          "gigabitCount": null,
+          "factionId": 1,
+          "isJuiced": true,
+          "juicedSeconds": 41524299,
+          "topRacingGigling": {
+            "petId": 13667,
+            "name": "#13667",
+            "rarity": 6,
+            "faction": 5,
+            "gender": "Male",
+            "elo": 1962
+          }
+        }
+      },
+      {
+        "rank": 6,
+        "petId": 26096,
+        "elo": 1921,
+        "eloRaceCount": 48,
+        "racesRun": 48,
+        "wins": 41,
+        "rarity": 5,
+        "faction": 3,
+        "gender": "Male",
+        "ownerAddress": "0x758c43e2325e9926d1d5633c132151a62e5f50cf",
+        "racePublic": {
+          "id": 26096,
+          "racesRun": 48,
+          "maxRaces": 60,
+          "revealsPerStat": {
+            "start": 10,
+            "speed": 10,
+            "stamina": 10,
+            "finish": 9
+          },
+          "startRange": {
+            "min": 93,
+            "max": 93
+          },
+          "speedRange": {
+            "min": 45,
+            "max": 45
+          },
+          "staminaRange": {
+            "min": 72,
+            "max": 72
+          },
+          "finishRange": {
+            "min": 61,
+            "max": 68
+          },
+          "traits": [
+            {
+              "id": "faction-heart",
+              "name": "Faction Heart",
+              "tier": null
+            },
+            {
+              "id": "clutch",
+              "name": "Clutch",
+              "tier": 2
+            },
+            {
+              "id": "closer",
+              "name": "Closer",
+              "tier": 1
+            },
+            {
+              "id": "surger",
+              "name": "Surger",
+              "tier": 3
+            },
+            {
+              "id": "steady",
+              "name": "Steady",
+              "tier": 2
+            }
+          ],
+          "elo": 1921,
+          "eloRaceCount": 48,
+          "wins": 41
+        },
+        "rarityName": "Relic",
+        "factionName": "Athena",
+        "ownerSummary": {
+          "username": "monkey215",
+          "hasNoob": true,
+          "noobId": 11599,
+          "headSheetUrl": "https://jade-decent-lizard-287.mypinata.cloud/ipfs/bafkreier2bagj3m6zkv4s3dxbptwnzt2vhhzmm4u4o3p73bqazp5ku5rde",
+          "bodySheetUrl": "/sprites/Body__.png",
+          "energyValue": null,
+          "maxEnergy": null,
+          "romCount": 0,
+          "petCount": 14,
+          "gigabitCount": null,
+          "factionId": 7,
+          "isJuiced": true,
+          "juicedSeconds": 4241594,
+          "topRacingGigling": {
+            "petId": 26096,
+            "name": "#26096",
+            "rarity": 5,
+            "faction": 3,
+            "gender": "Male",
+            "elo": 1921
+          }
+        }
+      },
+      {
+        "rank": 7,
+        "petId": 6000,
+        "elo": 1918,
+        "eloRaceCount": 60,
+        "racesRun": 60,
+        "wins": 45,
+        "rarity": 6,
+        "faction": 2,
+        "gender": "Male",
+        "ownerAddress": "0x516f35759faf2b65e8368a27f5a849736e851c25",
+        "racePublic": {
+          "id": 6000,
+          "racesRun": 60,
+          "maxRaces": 60,
+          "revealsPerStat": {
+            "start": 12,
+            "speed": 14,
+            "stamina": 11,
+            "finish": 11
+          },
+          "startRange": {
+            "min": 94,
+            "max": 94
+          },
+          "speedRange": {
+            "min": 99,
+            "max": 99
+          },
+          "staminaRange": {
+            "min": 92,
+            "max": 92
+          },
+          "finishRange": {
+            "min": 85,
+            "max": 85
+          },
+          "traits": [
+            {
+              "id": "clutch",
+              "name": "Clutch",
+              "tier": 3
+            },
+            {
+              "id": "closer",
+              "name": "Closer",
+              "tier": 1
+            },
+            {
+              "id": "faction-heart",
+              "name": "Faction Heart",
+              "tier": 2
+            },
+            {
+              "id": "volatile",
+              "name": "Volatile",
+              "tier": 1
+            },
+            {
+              "id": "fast-start",
+              "name": "Fast Start",
+              "tier": 2
+            },
+            {
+              "id": "surger",
+              "name": "Surger",
+              "tier": 1
+            }
+          ],
+          "elo": 1918,
+          "eloRaceCount": 60,
+          "wins": 45
+        },
+        "rarityName": "Giga",
+        "factionName": "Overseer",
+        "ownerSummary": {
+          "username": "kobayashi",
+          "hasNoob": true,
+          "noobId": 103,
+          "headSheetUrl": "https://jade-decent-lizard-287.mypinata.cloud/ipfs/bafkreigmwndy2rzwwzez74ippo3z3sz7psfenheqzmode6iyw34ohwrx3e",
+          "bodySheetUrl": "https://jade-decent-lizard-287.mypinata.cloud/ipfs/bafkreia5a5nbfijkx3wtnjq5l2ybqdvfifvbvjxw2gm7k4l7pagyoocrhe",
+          "energyValue": null,
+          "maxEnergy": null,
+          "romCount": 0,
+          "petCount": 5,
+          "gigabitCount": null,
+          "factionId": 2,
+          "isJuiced": true,
+          "juicedSeconds": 1641948,
+          "topRacingGigling": {
+            "petId": 6000,
+            "name": "#6000",
+            "rarity": 6,
+            "faction": 2,
+            "gender": "Male",
+            "elo": 1918
+          }
+        }
+      },
+      {
+        "rank": 8,
+        "petId": 15793,
+        "elo": 1914,
+        "eloRaceCount": 60,
+        "racesRun": 60,
+        "wins": 29,
+        "rarity": 6,
+        "faction": 8,
+        "gender": "Male",
+        "ownerAddress": "0x69c4cc0147fbc23965896fb18a1ccea92230ed1b",
+        "racePublic": {
+          "id": 15793,
+          "racesRun": 60,
+          "maxRaces": 60,
+          "revealsPerStat": {
+            "start": 11,
+            "speed": 12,
+            "stamina": 13,
+            "finish": 12
+          },
+          "startRange": {
+            "min": 57,
+            "max": 57
+          },
+          "speedRange": {
+            "min": 57,
+            "max": 57
+          },
+          "staminaRange": {
+            "min": 91,
+            "max": 91
+          },
+          "finishRange": {
+            "min": 65,
+            "max": 65
+          },
+          "traits": [
+            {
+              "id": "faction-heart",
+              "name": "Faction Heart",
+              "tier": 1
+            },
+            {
+              "id": "clutch",
+              "name": "Clutch",
+              "tier": 2
+            },
+            {
+              "id": "surger",
+              "name": "Surger",
+              "tier": 1
+            },
+            {
+              "id": "comeback",
+              "name": "Comeback",
+              "tier": 1
+            },
+            {
+              "id": "closer",
+              "name": "Closer",
+              "tier": 3
+            },
+            {
+              "id": "fast-start",
+              "name": "Fast Start",
+              "tier": 1
+            }
+          ],
+          "elo": 1914,
+          "eloRaceCount": 60,
+          "wins": 29
+        },
+        "rarityName": "Giga",
+        "factionName": "Gigus",
+        "ownerSummary": {
+          "username": "afropengu",
+          "hasNoob": true,
+          "noobId": 3375,
+          "headSheetUrl": "https://jade-decent-lizard-287.mypinata.cloud/ipfs/bafkreicg2nunefd7tal5wmfan6lm4zwdbzwqn6z4bwbgihwypeizgi5cfm",
+          "bodySheetUrl": "https://jade-decent-lizard-287.mypinata.cloud/ipfs/bafkreia5jwvt6s6zcoxhwflp5vhqush22ylb4hgqpd6ajjcjn54lm5doxi",
+          "energyValue": null,
+          "maxEnergy": null,
+          "romCount": 0,
+          "petCount": 735,
+          "gigabitCount": null,
+          "factionId": 1,
+          "isJuiced": true,
+          "juicedSeconds": 41524299,
+          "topRacingGigling": {
+            "petId": 13667,
+            "name": "#13667",
+            "rarity": 6,
+            "faction": 5,
+            "gender": "Male",
+            "elo": 1962
+          }
+        }
+      },
+      {
+        "rank": 9,
+        "petId": 27490,
+        "elo": 1910,
+        "eloRaceCount": 60,
+        "racesRun": 60,
+        "wins": 38,
+        "rarity": 6,
+        "faction": 7,
+        "gender": "Male",
+        "ownerAddress": "0x69c4cc0147fbc23965896fb18a1ccea92230ed1b",
+        "racePublic": {
+          "id": 27490,
+          "racesRun": 60,
+          "maxRaces": 60,
+          "revealsPerStat": {
+            "start": 12,
+            "speed": 14,
+            "stamina": 11,
+            "finish": 11
+          },
+          "startRange": {
+            "min": 75,
+            "max": 75
+          },
+          "speedRange": {
+            "min": 83,
+            "max": 83
+          },
+          "staminaRange": {
+            "min": 51,
+            "max": 51
+          },
+          "finishRange": {
+            "min": 50,
+            "max": 50
+          },
+          "traits": [
+            {
+              "id": "faction-heart",
+              "name": "Faction Heart",
+              "tier": 1
+            },
+            {
+              "id": "fast-start",
+              "name": "Fast Start",
+              "tier": 1
+            },
+            {
+              "id": "surger",
+              "name": "Surger",
+              "tier": 2
+            },
+            {
+              "id": "comeback",
+              "name": "Comeback",
+              "tier": 2
+            },
+            {
+              "id": "closer",
+              "name": "Closer",
+              "tier": 2
+            },
+            {
+              "id": "clutch",
+              "name": "Clutch",
+              "tier": 3
+            }
+          ],
+          "elo": 1910,
+          "eloRaceCount": 60,
+          "wins": 38
+        },
+        "rarityName": "Giga",
+        "factionName": "Chobo",
+        "ownerSummary": {
+          "username": "afropengu",
+          "hasNoob": true,
+          "noobId": 3375,
+          "headSheetUrl": "https://jade-decent-lizard-287.mypinata.cloud/ipfs/bafkreicg2nunefd7tal5wmfan6lm4zwdbzwqn6z4bwbgihwypeizgi5cfm",
+          "bodySheetUrl": "https://jade-decent-lizard-287.mypinata.cloud/ipfs/bafkreia5jwvt6s6zcoxhwflp5vhqush22ylb4hgqpd6ajjcjn54lm5doxi",
+          "energyValue": null,
+          "maxEnergy": null,
+          "romCount": 0,
+          "petCount": 735,
+          "gigabitCount": null,
+          "factionId": 1,
+          "isJuiced": true,
+          "juicedSeconds": 41524299,
+          "topRacingGigling": {
+            "petId": 13667,
+            "name": "#13667",
+            "rarity": 6,
+            "faction": 5,
+            "gender": "Male",
+            "elo": 1962
+          }
+        }
+      },
+      {
+        "rank": 10,
+        "petId": 21345,
+        "elo": 1905,
+        "eloRaceCount": 60,
+        "racesRun": 60,
+        "wins": 37,
+        "rarity": 6,
+        "faction": 2,
+        "gender": "Male",
+        "ownerAddress": "0x69c4cc0147fbc23965896fb18a1ccea92230ed1b",
+        "racePublic": {
+          "id": 21345,
+          "racesRun": 60,
+          "maxRaces": 60,
+          "revealsPerStat": {
+            "start": 11,
+            "speed": 13,
+            "stamina": 12,
+            "finish": 12
+          },
+          "startRange": {
+            "min": 63,
+            "max": 63
+          },
+          "speedRange": {
+            "min": 71,
+            "max": 71
+          },
+          "staminaRange": {
+            "min": 64,
+            "max": 64
+          },
+          "finishRange": {
+            "min": 85,
+            "max": 85
+          },
+          "traits": [
+            {
+              "id": "clutch",
+              "name": "Clutch",
+              "tier": 1
+            },
+            {
+              "id": "faction-heart",
+              "name": "Faction Heart",
+              "tier": 2
+            },
+            {
+              "id": "closer",
+              "name": "Closer",
+              "tier": 1
+            },
+            {
+              "id": "steady",
+              "name": "Steady",
+              "tier": 1
+            },
+            {
+              "id": "fast-start",
+              "name": "Fast Start",
+              "tier": 1
+            },
+            {
+              "id": "surger",
+              "name": "Surger",
+              "tier": 3
+            }
+          ],
+          "elo": 1905,
+          "eloRaceCount": 60,
+          "wins": 37
+        },
+        "rarityName": "Giga",
+        "factionName": "Overseer",
+        "ownerSummary": {
+          "username": "afropengu",
+          "hasNoob": true,
+          "noobId": 3375,
+          "headSheetUrl": "https://jade-decent-lizard-287.mypinata.cloud/ipfs/bafkreicg2nunefd7tal5wmfan6lm4zwdbzwqn6z4bwbgihwypeizgi5cfm",
+          "bodySheetUrl": "https://jade-decent-lizard-287.mypinata.cloud/ipfs/bafkreia5jwvt6s6zcoxhwflp5vhqush22ylb4hgqpd6ajjcjn54lm5doxi",
+          "energyValue": null,
+          "maxEnergy": null,
+          "romCount": 0,
+          "petCount": 735,
+          "gigabitCount": null,
+          "factionId": 1,
+          "isJuiced": true,
+          "juicedSeconds": 41524299,
+          "topRacingGigling": {
+            "petId": 13667,
+            "name": "#13667",
+            "rarity": 6,
+            "faction": 5,
+            "gender": "Male",
+            "elo": 1962
+          }
+        }
+      },
+      {
+        "rank": 11,
+        "petId": 3629,
+        "elo": 1894,
+        "eloRaceCount": 60,
+        "racesRun": 60,
+        "wins": 31,
+        "rarity": 6,
+        "faction": 4,
+        "gender": "Male",
+        "ownerAddress": "0x69c4cc0147fbc23965896fb18a1ccea92230ed1b",
+        "racePublic": {
+          "id": 3629,
+          "racesRun": 60,
+          "maxRaces": 60,
+          "revealsPerStat": {
+            "start": 12,
+            "speed": 10,
+            "stamina": 14,
+            "finish": 12
+          },
+          "startRange": {
+            "min": 95,
+            "max": 95
+          },
+          "speedRange": {
+            "min": 83,
+            "max": 83
+          },
+          "staminaRange": {
+            "min": 94,
+            "max": 94
+          },
+          "finishRange": {
+            "min": 87,
+            "max": 87
+          },
+          "traits": [
+            {
+              "id": "closer",
+              "name": "Closer",
+              "tier": 1
+            },
+            {
+              "id": "faction-heart",
+              "name": "Faction Heart",
+              "tier": 2
+            },
+            {
+              "id": "steady",
+              "name": "Steady",
+              "tier": 1
+            },
+            {
+              "id": "fast-start",
+              "name": "Fast Start",
+              "tier": 1
+            },
+            {
+              "id": "clutch",
+              "name": "Clutch",
+              "tier": 1
+            },
+            {
+              "id": "surger",
+              "name": "Surger",
+              "tier": 2
+            }
+          ],
+          "elo": 1894,
+          "eloRaceCount": 60,
+          "wins": 31
+        },
+        "rarityName": "Giga",
+        "factionName": "Archon",
+        "ownerSummary": {
+          "username": "afropengu",
+          "hasNoob": true,
+          "noobId": 3375,
+          "headSheetUrl": "https://jade-decent-lizard-287.mypinata.cloud/ipfs/bafkreicg2nunefd7tal5wmfan6lm4zwdbzwqn6z4bwbgihwypeizgi5cfm",
+          "bodySheetUrl": "https://jade-decent-lizard-287.mypinata.cloud/ipfs/bafkreia5jwvt6s6zcoxhwflp5vhqush22ylb4hgqpd6ajjcjn54lm5doxi",
+          "energyValue": null,
+          "maxEnergy": null,
+          "romCount": 0,
+          "petCount": 735,
+          "gigabitCount": null,
+          "factionId": 1,
+          "isJuiced": true,
+          "juicedSeconds": 41524299,
+          "topRacingGigling": {
+            "petId": 13667,
+            "name": "#13667",
+            "rarity": 6,
+            "faction": 5,
+            "gender": "Male",
+            "elo": 1962
+          }
+        }
+      },
+      {
+        "rank": 12,
+        "petId": 8405,
+        "elo": 1892,
+        "eloRaceCount": 60,
+        "racesRun": 60,
+        "wins": 41,
+        "rarity": 5,
+        "faction": 4,
+        "gender": "Male",
+        "ownerAddress": "0x5ab272231e653c2265bdfae58310021bca37152e",
+        "racePublic": {
+          "id": 8405,
+          "racesRun": 60,
+          "maxRaces": 60,
+          "revealsPerStat": {
+            "start": 12,
+            "speed": 11,
+            "stamina": 12,
+            "finish": 13
+          },
+          "startRange": {
+            "min": 51,
+            "max": 51
+          },
+          "speedRange": {
+            "min": 80,
+            "max": 80
+          },
+          "staminaRange": {
+            "min": 96,
+            "max": 96
+          },
+          "finishRange": {
+            "min": 78,
+            "max": 78
+          },
+          "traits": [
+            {
+              "id": "steady",
+              "name": "Steady",
+              "tier": 2
+            },
+            {
+              "id": "volatile",
+              "name": "Volatile",
+              "tier": 1
+            },
+            {
+              "id": "faction-heart",
+              "name": "Faction Heart",
+              "tier": 1
+            },
+            {
+              "id": "fast-start",
+              "name": "Fast Start",
+              "tier": 1
+            },
+            {
+              "id": "surger",
+              "name": "Surger",
+              "tier": 3
+            }
+          ],
+          "elo": 1892,
+          "eloRaceCount": 60,
+          "wins": 41
+        },
+        "rarityName": "Relic",
+        "factionName": "Archon",
+        "ownerSummary": {
+          "username": "tufbeast",
+          "hasNoob": true,
+          "noobId": 1383,
+          "headSheetUrl": "https://jade-decent-lizard-287.mypinata.cloud/ipfs/bafkreiexo7z2qtuutbmemph2tfan23u3pm6y7oupnghmgcexqydvazg7tu",
+          "bodySheetUrl": "https://jade-decent-lizard-287.mypinata.cloud/ipfs/bafkreidu2biapnrnzd5igdbhm36dgvuhc6vkaxi4fxrjunjs3x2zmg5fby",
+          "energyValue": null,
+          "maxEnergy": null,
+          "romCount": 0,
+          "petCount": 24,
+          "gigabitCount": null,
+          "factionId": 2,
+          "isJuiced": true,
+          "juicedSeconds": 57096697,
+          "topRacingGigling": {
+            "petId": 8405,
+            "name": "#8405",
+            "rarity": 5,
+            "faction": 4,
+            "gender": "Male",
+            "elo": 1892
+          }
+        }
+      },
+      {
+        "rank": 13,
+        "petId": 5427,
+        "elo": 1890,
+        "eloRaceCount": 60,
+        "racesRun": 60,
+        "wins": 41,
+        "rarity": 4,
+        "faction": 2,
+        "gender": "Male",
+        "ownerAddress": "0xabd4f258d163878bf31790bf71903a846cfe5ca9",
+        "racePublic": {
+          "id": 5427,
+          "racesRun": 60,
+          "maxRaces": 60,
+          "revealsPerStat": {
+            "start": 12,
+            "speed": 12,
+            "stamina": 12,
+            "finish": 12
+          },
+          "startRange": {
+            "min": 80,
+            "max": 80
+          },
+          "speedRange": {
+            "min": 70,
+            "max": 70
+          },
+          "staminaRange": {
+            "min": 78,
+            "max": 78
+          },
+          "finishRange": {
+            "min": 45,
+            "max": 45
+          },
+          "traits": [
+            {
+              "id": "volatile",
+              "name": "Volatile",
+              "tier": 2
+            },
+            {
+              "id": "clutch",
+              "name": "Clutch",
+              "tier": 2
+            },
+            {
+              "id": "fast-start",
+              "name": "Fast Start",
+              "tier": 2
+            },
+            {
+              "id": "surger",
+              "name": "Surger",
+              "tier": 3
+            }
+          ],
+          "elo": 1890,
+          "eloRaceCount": 60,
+          "wins": 41
+        },
+        "rarityName": "Legendary",
+        "factionName": "Overseer",
+        "ownerSummary": {
+          "username": "olegrr",
+          "hasNoob": true,
+          "noobId": 3240,
+          "headSheetUrl": "https://jade-decent-lizard-287.mypinata.cloud/ipfs/bafkreiaiugoj5mq4wunekoauvxbbecikm6w6otkyvdfg7cguu6xcxmk7qy",
+          "bodySheetUrl": "https://jade-decent-lizard-287.mypinata.cloud/ipfs/bafkreiag6tkuloflptug2oulmqwoig6ffa47g4trwxmjfr6uuxpyy3eyay",
+          "energyValue": null,
+          "maxEnergy": null,
+          "romCount": 0,
+          "petCount": 11,
+          "gigabitCount": null,
+          "factionId": 6,
+          "isJuiced": true,
+          "juicedSeconds": 13834293,
+          "topRacingGigling": {
+            "petId": 5427,
+            "name": "#5427",
+            "rarity": 4,
+            "faction": 2,
+            "gender": "Male",
+            "elo": 1890
+          }
+        }
+      },
+      {
+        "rank": 14,
+        "petId": 14541,
+        "elo": 1887,
+        "eloRaceCount": 60,
+        "racesRun": 60,
+        "wins": 39,
+        "rarity": 6,
+        "faction": 7,
+        "gender": "Male",
+        "ownerAddress": "0x69c4cc0147fbc23965896fb18a1ccea92230ed1b",
+        "racePublic": {
+          "id": 14541,
+          "racesRun": 60,
+          "maxRaces": 60,
+          "revealsPerStat": {
+            "start": 13,
+            "speed": 11,
+            "stamina": 10,
+            "finish": 14
+          },
+          "startRange": {
+            "min": 65,
+            "max": 65
+          },
+          "speedRange": {
+            "min": 61,
+            "max": 61
+          },
+          "staminaRange": {
+            "min": 91,
+            "max": 91
+          },
+          "finishRange": {
+            "min": 77,
+            "max": 77
+          },
+          "traits": [
+            {
+              "id": "volatile",
+              "name": "Volatile",
+              "tier": 2
+            },
+            {
+              "id": "fast-start",
+              "name": "Fast Start",
+              "tier": 1
+            },
+            {
+              "id": "closer",
+              "name": "Closer",
+              "tier": 2
+            },
+            {
+              "id": "surger",
+              "name": "Surger",
+              "tier": 3
+            },
+            {
+              "id": "comeback",
+              "name": "Comeback",
+              "tier": 1
+            },
+            {
+              "id": "clutch",
+              "name": "Clutch",
+              "tier": 1
+            }
+          ],
+          "elo": 1887,
+          "eloRaceCount": 60,
+          "wins": 39
+        },
+        "rarityName": "Giga",
+        "factionName": "Chobo",
+        "ownerSummary": {
+          "username": "afropengu",
+          "hasNoob": true,
+          "noobId": 3375,
+          "headSheetUrl": "https://jade-decent-lizard-287.mypinata.cloud/ipfs/bafkreicg2nunefd7tal5wmfan6lm4zwdbzwqn6z4bwbgihwypeizgi5cfm",
+          "bodySheetUrl": "https://jade-decent-lizard-287.mypinata.cloud/ipfs/bafkreia5jwvt6s6zcoxhwflp5vhqush22ylb4hgqpd6ajjcjn54lm5doxi",
+          "energyValue": null,
+          "maxEnergy": null,
+          "romCount": 0,
+          "petCount": 735,
+          "gigabitCount": null,
+          "factionId": 1,
+          "isJuiced": true,
+          "juicedSeconds": 41524299,
+          "topRacingGigling": {
+            "petId": 13667,
+            "name": "#13667",
+            "rarity": 6,
+            "faction": 5,
+            "gender": "Male",
+            "elo": 1962
+          }
+        }
+      },
+      {
+        "rank": 15,
+        "petId": 11475,
+        "elo": 1884,
+        "eloRaceCount": 58,
+        "racesRun": 58,
+        "wins": 32,
+        "rarity": 6,
+        "faction": 4,
+        "gender": "Male",
+        "ownerAddress": "0x3f064dfdbde340f87944ca481e1ba6b448f824fa",
+        "racePublic": {
+          "id": 11475,
+          "racesRun": 58,
+          "maxRaces": 60,
+          "revealsPerStat": {
+            "start": 13,
+            "speed": 13,
+            "stamina": 10,
+            "finish": 11
+          },
+          "startRange": {
+            "min": 58,
+            "max": 58
+          },
+          "speedRange": {
+            "min": 69,
+            "max": 69
+          },
+          "staminaRange": {
+            "min": 92,
+            "max": 92
+          },
+          "finishRange": {
+            "min": 74,
+            "max": 74
+          },
+          "traits": [
+            {
+              "id": "closer",
+              "name": "Closer",
+              "tier": 1
+            },
+            {
+              "id": "comeback",
+              "name": "Comeback",
+              "tier": null
+            },
+            {
+              "id": "fast-start",
+              "name": "Fast Start",
+              "tier": 1
+            },
+            {
+              "id": "surger",
+              "name": "Surger",
+              "tier": 3
+            },
+            {
+              "id": "clutch",
+              "name": "Clutch",
+              "tier": 1
+            },
+            {
+              "id": "faction-heart",
+              "name": "Faction Heart",
+              "tier": 1
+            }
+          ],
+          "elo": 1884,
+          "eloRaceCount": 58,
+          "wins": 32
+        },
+        "rarityName": "Giga",
+        "factionName": "Archon",
+        "ownerSummary": {
+          "username": "wealthcreator",
+          "hasNoob": true,
+          "noobId": 3702,
+          "headSheetUrl": "https://jade-decent-lizard-287.mypinata.cloud/ipfs/bafkreidbd2emtpun4hmqlsobf7odyg7on7w2a3i2yelbkq7frlqvii7xiq",
+          "bodySheetUrl": "https://jade-decent-lizard-287.mypinata.cloud/ipfs/bafkreifmdwqswfamdndlmnohwtxnfuzqia7a2jg2fxtbxi34meheqfvc4y",
+          "energyValue": null,
+          "maxEnergy": null,
+          "romCount": 0,
+          "petCount": 24,
+          "gigabitCount": null,
+          "factionId": 4,
+          "isJuiced": true,
+          "juicedSeconds": 5578066,
+          "topRacingGigling": {
+            "petId": 11475,
+            "name": "#11475",
+            "rarity": 6,
+            "faction": 4,
+            "gender": "Male",
+            "elo": 1884
+          }
+        }
+      },
+      {
+        "rank": 16,
+        "petId": 16299,
+        "elo": 1882,
+        "eloRaceCount": 60,
+        "racesRun": 60,
+        "wins": 23,
+        "rarity": 6,
+        "faction": 5,
+        "gender": "Male",
+        "ownerAddress": "0x69c4cc0147fbc23965896fb18a1ccea92230ed1b",
+        "racePublic": {
+          "id": 16299,
+          "racesRun": 60,
+          "maxRaces": 60,
+          "revealsPerStat": {
+            "start": 13,
+            "speed": 13,
+            "stamina": 12,
+            "finish": 10
+          },
+          "startRange": {
+            "min": 92,
+            "max": 92
+          },
+          "speedRange": {
+            "min": 78,
+            "max": 78
+          },
+          "staminaRange": {
+            "min": 87,
+            "max": 87
+          },
+          "finishRange": {
+            "min": 50,
+            "max": 50
+          },
+          "traits": [
+            {
+              "id": "volatile",
+              "name": "Volatile",
+              "tier": 1
+            },
+            {
+              "id": "steady",
+              "name": "Steady",
+              "tier": 1
+            },
+            {
+              "id": "comeback",
+              "name": "Comeback",
+              "tier": 1
+            },
+            {
+              "id": "faction-heart",
+              "name": "Faction Heart",
+              "tier": 2
+            },
+            {
+              "id": "surger",
+              "name": "Surger",
+              "tier": 1
+            },
+            {
+              "id": "clutch",
+              "name": "Clutch",
+              "tier": 3
+            }
+          ],
+          "elo": 1882,
+          "eloRaceCount": 60,
+          "wins": 23
+        },
+        "rarityName": "Giga",
+        "factionName": "Foxglove",
+        "ownerSummary": {
+          "username": "afropengu",
+          "hasNoob": true,
+          "noobId": 3375,
+          "headSheetUrl": "https://jade-decent-lizard-287.mypinata.cloud/ipfs/bafkreicg2nunefd7tal5wmfan6lm4zwdbzwqn6z4bwbgihwypeizgi5cfm",
+          "bodySheetUrl": "https://jade-decent-lizard-287.mypinata.cloud/ipfs/bafkreia5jwvt6s6zcoxhwflp5vhqush22ylb4hgqpd6ajjcjn54lm5doxi",
+          "energyValue": null,
+          "maxEnergy": null,
+          "romCount": 0,
+          "petCount": 735,
+          "gigabitCount": null,
+          "factionId": 1,
+          "isJuiced": true,
+          "juicedSeconds": 41524299,
+          "topRacingGigling": {
+            "petId": 13667,
+            "name": "#13667",
+            "rarity": 6,
+            "faction": 5,
+            "gender": "Male",
+            "elo": 1962
+          }
+        }
+      },
+      {
+        "rank": 17,
+        "petId": 1871,
+        "elo": 1882,
+        "eloRaceCount": 56,
+        "racesRun": 56,
+        "wins": 31,
+        "rarity": 6,
+        "faction": 0,
+        "gender": "Male",
+        "ownerAddress": "0x7b937e99c1458a485a035a0f06b9d8bf5f842a05",
+        "racePublic": {
+          "id": 1871,
+          "racesRun": 56,
+          "maxRaces": 60,
+          "revealsPerStat": {
+            "start": 12,
+            "speed": 10,
+            "stamina": 12,
+            "finish": 11
+          },
+          "startRange": {
+            "min": 91,
+            "max": 91
+          },
+          "speedRange": {
+            "min": 92,
+            "max": 92
+          },
+          "staminaRange": {
+            "min": 78,
+            "max": 78
+          },
+          "finishRange": {
+            "min": 98,
+            "max": 98
+          },
+          "traits": [
+            {
+              "id": "clutch",
+              "name": "Clutch",
+              "tier": null
+            },
+            {
+              "id": "fast-start",
+              "name": "Fast Start",
+              "tier": 2
+            },
+            {
+              "id": "volatile",
+              "name": "Volatile",
+              "tier": 2
+            },
+            {
+              "id": "surger",
+              "name": "Surger",
+              "tier": 2
+            },
+            {
+              "id": "comeback",
+              "name": "Comeback",
+              "tier": 2
+            },
+            {
+              "id": "closer",
+              "name": "Closer",
+              "tier": 1
+            }
+          ],
+          "elo": 1882,
+          "eloRaceCount": 56,
+          "wins": 31
+        },
+        "rarityName": "Giga",
+        "factionName": "None",
+        "ownerSummary": {
+          "username": "wethmedaddy",
+          "hasNoob": true,
+          "noobId": 63694,
+          "headSheetUrl": "https://jade-decent-lizard-287.mypinata.cloud/ipfs/bafkreigrf24kslvaurrcxihv5ouhj7dnwtyrr4ldsihrhb4rbjcpky3wze",
+          "bodySheetUrl": "https://jade-decent-lizard-287.mypinata.cloud/ipfs/bafkreibleuuwlxdmj57ixjobocuek3op65nvta7f4czvounhuvvzpgqslq",
+          "energyValue": null,
+          "maxEnergy": null,
+          "romCount": 0,
+          "petCount": 32,
+          "gigabitCount": null,
+          "factionId": 1,
+          "isJuiced": true,
+          "juicedSeconds": 10382944,
+          "topRacingGigling": {
+            "petId": 1871,
+            "name": "#1871",
+            "rarity": 6,
+            "faction": 0,
+            "gender": "Male",
+            "elo": 1882
+          }
+        }
+      },
+      {
+        "rank": 18,
+        "petId": 6411,
+        "elo": 1878,
+        "eloRaceCount": 50,
+        "racesRun": 50,
+        "wins": 23,
+        "rarity": 4,
+        "faction": 4,
+        "gender": "Male",
+        "ownerAddress": "0x69c4cc0147fbc23965896fb18a1ccea92230ed1b",
+        "racePublic": {
+          "id": 6411,
+          "racesRun": 50,
+          "maxRaces": 60,
+          "revealsPerStat": {
+            "start": 10,
+            "speed": 10,
+            "stamina": 10,
+            "finish": 10
+          },
+          "startRange": {
+            "min": 84,
+            "max": 84
+          },
+          "speedRange": {
+            "min": 98,
+            "max": 98
+          },
+          "staminaRange": {
+            "min": 82,
+            "max": 82
+          },
+          "finishRange": {
+            "min": 58,
+            "max": 58
+          },
+          "traits": [
+            {
+              "id": "comeback",
+              "name": "Comeback",
+              "tier": 3
+            },
+            {
+              "id": "surger",
+              "name": "Surger",
+              "tier": 1
+            },
+            {
+              "id": "closer",
+              "name": "Closer",
+              "tier": 1
+            },
+            {
+              "id": "clutch",
+              "name": "Clutch",
+              "tier": 3
+            }
+          ],
+          "elo": 1878,
+          "eloRaceCount": 50,
+          "wins": 23
+        },
+        "rarityName": "Legendary",
+        "factionName": "Archon",
+        "ownerSummary": {
+          "username": "afropengu",
+          "hasNoob": true,
+          "noobId": 3375,
+          "headSheetUrl": "https://jade-decent-lizard-287.mypinata.cloud/ipfs/bafkreicg2nunefd7tal5wmfan6lm4zwdbzwqn6z4bwbgihwypeizgi5cfm",
+          "bodySheetUrl": "https://jade-decent-lizard-287.mypinata.cloud/ipfs/bafkreia5jwvt6s6zcoxhwflp5vhqush22ylb4hgqpd6ajjcjn54lm5doxi",
+          "energyValue": null,
+          "maxEnergy": null,
+          "romCount": 0,
+          "petCount": 735,
+          "gigabitCount": null,
+          "factionId": 1,
+          "isJuiced": true,
+          "juicedSeconds": 41524299,
+          "topRacingGigling": {
+            "petId": 13667,
+            "name": "#13667",
+            "rarity": 6,
+            "faction": 5,
+            "gender": "Male",
+            "elo": 1962
+          }
+        }
+      },
+      {
+        "rank": 19,
+        "petId": 23255,
+        "elo": 1877,
+        "eloRaceCount": 60,
+        "racesRun": 60,
+        "wins": 56,
+        "rarity": 3,
+        "faction": 0,
+        "gender": "Male",
+        "ownerAddress": "0xc333600b9a33040a37854c1cb0e82871059787b4",
+        "racePublic": {
+          "id": 23255,
+          "racesRun": 60,
+          "maxRaces": 60,
+          "revealsPerStat": {
+            "start": 13,
+            "speed": 12,
+            "stamina": 12,
+            "finish": 11
+          },
+          "startRange": {
+            "min": 97,
+            "max": 97
+          },
+          "speedRange": {
+            "min": 89,
+            "max": 89
+          },
+          "staminaRange": {
+            "min": 77,
+            "max": 77
+          },
+          "finishRange": {
+            "min": 80,
+            "max": 80
+          },
+          "traits": [
+            {
+              "id": "surger",
+              "name": "Surger",
+              "tier": 1
+            },
+            {
+              "id": "closer",
+              "name": "Closer",
+              "tier": 1
+            },
+            {
+              "id": "clutch",
+              "name": "Clutch",
+              "tier": 2
+            }
+          ],
+          "elo": 1877,
+          "eloRaceCount": 60,
+          "wins": 56
+        },
+        "rarityName": "Epic",
+        "factionName": "None",
+        "ownerSummary": {
+          "username": "yndor",
+          "hasNoob": true,
+          "noobId": 4990,
+          "headSheetUrl": "https://jade-decent-lizard-287.mypinata.cloud/ipfs/bafkreidbd2emtpun4hmqlsobf7odyg7on7w2a3i2yelbkq7frlqvii7xiq",
+          "bodySheetUrl": "https://jade-decent-lizard-287.mypinata.cloud/ipfs/bafkreien6wbkz7v5sk3afrq63rzi6wxalkp2uf2u3ggyyd7pvsnqotk2wy",
+          "energyValue": null,
+          "maxEnergy": null,
+          "romCount": 0,
+          "petCount": 6,
+          "gigabitCount": null,
+          "factionId": 7,
+          "isJuiced": true,
+          "juicedSeconds": 6030383,
+          "topRacingGigling": {
+            "petId": 23255,
+            "name": "#23255",
+            "rarity": 3,
+            "faction": 0,
+            "gender": "Male",
+            "elo": 1877
+          }
+        }
+      },
+      {
+        "rank": 20,
+        "petId": 4822,
+        "elo": 1868,
+        "eloRaceCount": 32,
+        "racesRun": 32,
+        "wins": 24,
+        "rarity": 4,
+        "faction": 7,
+        "gender": "Male",
+        "ownerAddress": "0xafe00172cf96544d610bf9b70d549a5e89b83f2d",
+        "racePublic": {
+          "id": 4822,
+          "racesRun": 32,
+          "maxRaces": 60,
+          "revealsPerStat": {
+            "start": 6,
+            "speed": 9,
+            "stamina": 6,
+            "finish": 5
+          },
+          "startRange": {
+            "min": 51,
+            "max": 80
+          },
+          "speedRange": {
+            "min": 69,
+            "max": 77
+          },
+          "staminaRange": {
+            "min": 54,
+            "max": 83
+          },
+          "finishRange": {
+            "min": 54,
+            "max": 90
+          },
+          "traits": [
+            {
+              "id": "fast-start",
+              "name": "Fast Start",
+              "tier": 1
+            },
+            {
+              "id": "clutch",
+              "name": "Clutch",
+              "tier": null
+            },
+            {
+              "id": "surger",
+              "name": "Surger",
+              "tier": 3
+            },
+            {
+              "id": "closer",
+              "name": "Closer",
+              "tier": 2
+            }
+          ],
+          "elo": 1868,
+          "eloRaceCount": 32,
+          "wins": 24
+        },
+        "rarityName": "Legendary",
+        "factionName": "Chobo",
+        "ownerSummary": {
+          "username": "hungryjay",
+          "hasNoob": true,
+          "noobId": 77017,
+          "headSheetUrl": "https://jade-decent-lizard-287.mypinata.cloud/ipfs/bafkreid5qserxibaprrnw346ioob3l5weltzcu2bgmzozk326bmtxt63uq",
+          "bodySheetUrl": "https://jade-decent-lizard-287.mypinata.cloud/ipfs/bafkreidqmmd4vywmyfqfaa446zh376rrsrkrdsadlyhsuz7lzrlcw2sjwu",
+          "energyValue": null,
+          "maxEnergy": null,
+          "romCount": 0,
+          "petCount": 54,
+          "gigabitCount": null,
+          "factionId": 1,
+          "isJuiced": true,
+          "juicedSeconds": 20887568,
+          "topRacingGigling": {
+            "petId": 4822,
+            "name": "#4822",
+            "rarity": 4,
+            "faction": 7,
+            "gender": "Male",
+            "elo": 1868
+          }
+        }
+      },
+      {
+        "rank": 21,
+        "petId": 18813,
+        "elo": 1866,
+        "eloRaceCount": 57,
+        "racesRun": 57,
+        "wins": 33,
+        "rarity": 5,
+        "faction": 7,
+        "gender": "Female",
+        "ownerAddress": "0xeed7c6b2af48249a040c9e5d59437670889c7e07",
+        "racePublic": {
+          "id": 18813,
+          "racesRun": 57,
+          "maxRaces": 60,
+          "revealsPerStat": {
+            "start": 11,
+            "speed": 12,
+            "stamina": 12,
+            "finish": 11
+          },
+          "startRange": {
+            "min": 67,
+            "max": 67
+          },
+          "speedRange": {
+            "min": 61,
+            "max": 61
+          },
+          "staminaRange": {
+            "min": 90,
+            "max": 90
+          },
+          "finishRange": {
+            "min": 85,
+            "max": 85
+          },
+          "traits": [
+            {
+              "id": "clutch",
+              "name": "Clutch",
+              "tier": 1
+            },
+            {
+              "id": "surger",
+              "name": "Surger",
+              "tier": 3
+            },
+            {
+              "id": "closer",
+              "name": "Closer",
+              "tier": 1
+            },
+            {
+              "id": "fast-start",
+              "name": "Fast Start",
+              "tier": 1
+            },
+            {
+              "id": "comeback",
+              "name": "Comeback",
+              "tier": 3
+            }
+          ],
+          "elo": 1866,
+          "eloRaceCount": 57,
+          "wins": 33
+        },
+        "rarityName": "Relic",
+        "factionName": "Chobo",
+        "ownerSummary": {
+          "username": "lilwassie",
+          "hasNoob": true,
+          "noobId": 168,
+          "headSheetUrl": "https://jade-decent-lizard-287.mypinata.cloud/ipfs/bafkreid5qserxibaprrnw346ioob3l5weltzcu2bgmzozk326bmtxt63uq",
+          "bodySheetUrl": "https://jade-decent-lizard-287.mypinata.cloud/ipfs/bafkreidqmmd4vywmyfqfaa446zh376rrsrkrdsadlyhsuz7lzrlcw2sjwu",
+          "energyValue": null,
+          "maxEnergy": null,
+          "romCount": 0,
+          "petCount": 183,
+          "gigabitCount": null,
+          "factionId": 1,
+          "isJuiced": true,
+          "juicedSeconds": 57033883,
+          "topRacingGigling": {
+            "petId": 18813,
+            "name": "#18813",
+            "rarity": 5,
+            "faction": 7,
+            "gender": "Female",
+            "elo": 1866
+          }
+        }
+      },
+      {
+        "rank": 22,
+        "petId": 26108,
+        "elo": 1861,
+        "eloRaceCount": 39,
+        "racesRun": 39,
+        "wins": 27,
+        "rarity": 5,
+        "faction": 1,
+        "gender": "Female",
+        "ownerAddress": "0xa200e13c9ad755502ad29ee3afb01e9946b4f0d0",
+        "racePublic": {
+          "id": 26108,
+          "racesRun": 39,
+          "maxRaces": 60,
+          "revealsPerStat": {
+            "start": 7,
+            "speed": 9,
+            "stamina": 10,
+            "finish": 6
+          },
+          "startRange": {
+            "min": 64,
+            "max": 83
+          },
+          "speedRange": {
+            "min": 67,
+            "max": 74
+          },
+          "staminaRange": {
+            "min": 86,
+            "max": 86
+          },
+          "finishRange": {
+            "min": 57,
+            "max": 82
+          },
+          "traits": [
+            {
+              "id": "comeback",
+              "name": "Comeback",
+              "tier": 1
+            },
+            {
+              "id": "faction-heart",
+              "name": "Faction Heart",
+              "tier": null
+            },
+            {
+              "id": "clutch",
+              "name": "Clutch",
+              "tier": 3
+            },
+            {
+              "id": "fast-start",
+              "name": "Fast Start",
+              "tier": 1
+            },
+            {
+              "id": "surger",
+              "name": "Surger",
+              "tier": null
+            }
+          ],
+          "elo": 1861,
+          "eloRaceCount": 39,
+          "wins": 27
+        },
+        "rarityName": "Relic",
+        "factionName": "Crusader",
+        "ownerSummary": {
+          "username": "blob_marley",
+          "hasNoob": true,
+          "noobId": 18731,
+          "headSheetUrl": "https://jade-decent-lizard-287.mypinata.cloud/ipfs/bafkreiapwukvghzr7spy5qfydg2ewn2engtadm4puck7tvgmagvn7whwm4",
+          "bodySheetUrl": "https://jade-decent-lizard-287.mypinata.cloud/ipfs/bafkreidka5kjs6ajpsxczcaussaq4tdowxuixqg4zxwixcxlpt37xwzuiq",
+          "energyValue": null,
+          "maxEnergy": null,
+          "romCount": 0,
+          "petCount": 32,
+          "gigabitCount": null,
+          "factionId": 1,
+          "isJuiced": true,
+          "juicedSeconds": 11099074,
+          "topRacingGigling": {
+            "petId": 26108,
+            "name": "#26108",
+            "rarity": 5,
+            "faction": 1,
+            "gender": "Female",
+            "elo": 1861
+          }
+        }
+      },
+      {
+        "rank": 23,
+        "petId": 8086,
+        "elo": 1859,
+        "eloRaceCount": 60,
+        "racesRun": 60,
+        "wins": 28,
+        "rarity": 6,
+        "faction": 1,
+        "gender": "Female",
+        "ownerAddress": "0x73a9ffdaaf53723f1d08403f613870cddd6e18fc",
+        "racePublic": {
+          "id": 8086,
+          "racesRun": 60,
+          "maxRaces": 60,
+          "revealsPerStat": {
+            "start": 11,
+            "speed": 11,
+            "stamina": 14,
+            "finish": 12
+          },
+          "startRange": {
+            "min": 60,
+            "max": 60
+          },
+          "speedRange": {
+            "min": 93,
+            "max": 93
+          },
+          "staminaRange": {
+            "min": 96,
+            "max": 96
+          },
+          "finishRange": {
+            "min": 56,
+            "max": 56
+          },
+          "traits": [
+            {
+              "id": "surger",
+              "name": "Surger",
+              "tier": 1
+            },
+            {
+              "id": "closer",
+              "name": "Closer",
+              "tier": 2
+            },
+            {
+              "id": "steady",
+              "name": "Steady",
+              "tier": 1
+            },
+            {
+              "id": "faction-heart",
+              "name": "Faction Heart",
+              "tier": 2
+            },
+            {
+              "id": "comeback",
+              "name": "Comeback",
+              "tier": 2
+            },
+            {
+              "id": "clutch",
+              "name": "Clutch",
+              "tier": 1
+            }
+          ],
+          "elo": 1859,
+          "eloRaceCount": 60,
+          "wins": 28
+        },
+        "rarityName": "Giga",
+        "factionName": "Crusader",
+        "ownerSummary": {
+          "username": "suspicious",
+          "hasNoob": true,
+          "noobId": 14976,
+          "headSheetUrl": "https://jade-decent-lizard-287.mypinata.cloud/ipfs/bafkreicbe633fxfk5iho52v3agqd2svtsqg4rijzph5k5sl52z5exdpy2q",
+          "bodySheetUrl": "https://jade-decent-lizard-287.mypinata.cloud/ipfs/bafkreihciovtik7zcgl5ekxeqtxwt6yser3bsj2wcno24oajsd434427ga",
+          "energyValue": null,
+          "maxEnergy": null,
+          "romCount": 0,
+          "petCount": 98,
+          "gigabitCount": null,
+          "factionId": 1,
+          "isJuiced": true,
+          "juicedSeconds": 28524775,
+          "topRacingGigling": {
+            "petId": 9141,
+            "name": "#9141",
+            "rarity": 6,
+            "faction": 4,
+            "gender": "Male",
+            "elo": 2032
+          }
+        }
+      },
+      {
+        "rank": 24,
+        "petId": 10361,
+        "elo": 1854,
+        "eloRaceCount": 60,
+        "racesRun": 60,
+        "wins": 29,
+        "rarity": 6,
+        "faction": 2,
+        "gender": "Male",
+        "ownerAddress": "0x3f064dfdbde340f87944ca481e1ba6b448f824fa",
+        "racePublic": {
+          "id": 10361,
+          "racesRun": 60,
+          "maxRaces": 60,
+          "revealsPerStat": {
+            "start": 11,
+            "speed": 12,
+            "stamina": 14,
+            "finish": 11
+          },
+          "startRange": {
+            "min": 76,
+            "max": 76
+          },
+          "speedRange": {
+            "min": 94,
+            "max": 94
+          },
+          "staminaRange": {
+            "min": 88,
+            "max": 88
+          },
+          "finishRange": {
+            "min": 89,
+            "max": 89
+          },
+          "traits": [
+            {
+              "id": "clutch",
+              "name": "Clutch",
+              "tier": 3
+            },
+            {
+              "id": "steady",
+              "name": "Steady",
+              "tier": 2
+            },
+            {
+              "id": "fast-start",
+              "name": "Fast Start",
+              "tier": 1
+            },
+            {
+              "id": "volatile",
+              "name": "Volatile",
+              "tier": 1
+            },
+            {
+              "id": "faction-heart",
+              "name": "Faction Heart",
+              "tier": 1
+            },
+            {
+              "id": "closer",
+              "name": "Closer",
+              "tier": 2
+            }
+          ],
+          "elo": 1854,
+          "eloRaceCount": 60,
+          "wins": 29
+        },
+        "rarityName": "Giga",
+        "factionName": "Overseer",
+        "ownerSummary": {
+          "username": "wealthcreator",
+          "hasNoob": true,
+          "noobId": 3702,
+          "headSheetUrl": "https://jade-decent-lizard-287.mypinata.cloud/ipfs/bafkreidbd2emtpun4hmqlsobf7odyg7on7w2a3i2yelbkq7frlqvii7xiq",
+          "bodySheetUrl": "https://jade-decent-lizard-287.mypinata.cloud/ipfs/bafkreifmdwqswfamdndlmnohwtxnfuzqia7a2jg2fxtbxi34meheqfvc4y",
+          "energyValue": null,
+          "maxEnergy": null,
+          "romCount": 0,
+          "petCount": 24,
+          "gigabitCount": null,
+          "factionId": 4,
+          "isJuiced": true,
+          "juicedSeconds": 5578066,
+          "topRacingGigling": {
+            "petId": 11475,
+            "name": "#11475",
+            "rarity": 6,
+            "faction": 4,
+            "gender": "Male",
+            "elo": 1884
+          }
+        }
+      },
+      {
+        "rank": 25,
+        "petId": 7136,
+        "elo": 1852,
+        "eloRaceCount": 38,
+        "racesRun": 38,
+        "wins": 36,
+        "rarity": 3,
+        "faction": 0,
+        "gender": "Male",
+        "ownerAddress": "0xe472b3db47fd9864d64ed5fb4037880a11634950",
+        "racePublic": {
+          "id": 7136,
+          "racesRun": 38,
+          "maxRaces": 60,
+          "revealsPerStat": {
+            "start": 8,
+            "speed": 8,
+            "stamina": 10,
+            "finish": 5
+          },
+          "startRange": {
+            "min": 56,
+            "max": 73
+          },
+          "speedRange": {
+            "min": 52,
+            "max": 69
+          },
+          "staminaRange": {
+            "min": 97,
+            "max": 97
+          },
+          "finishRange": {
+            "min": 44,
+            "max": 85
+          },
+          "traits": [
+            {
+              "id": "volatile",
+              "name": "Volatile",
+              "tier": 1
+            },
+            {
+              "id": "fast-start",
+              "name": "Fast Start",
+              "tier": 1
+            },
+            {
+              "id": "clutch",
+              "name": "Clutch",
+              "tier": 1
+            }
+          ],
+          "elo": 1852,
+          "eloRaceCount": 38,
+          "wins": 36
+        },
+        "rarityName": "Epic",
+        "factionName": "None",
+        "ownerSummary": {
+          "username": "jefft",
+          "hasNoob": true,
+          "noobId": 1304,
+          "headSheetUrl": "https://jade-decent-lizard-287.mypinata.cloud/ipfs/bafkreiaficxglqxrgubufiaeg2zpnvxn63ne6zzcd2lb2fer4dzpu54rxi",
+          "bodySheetUrl": "https://jade-decent-lizard-287.mypinata.cloud/ipfs/bafkreihbdtqsizf7y4pga57rmmcs6lvtrlo4efvbd7smuskozcpiqv7poi",
+          "energyValue": null,
+          "maxEnergy": null,
+          "romCount": 0,
+          "petCount": 18,
+          "gigabitCount": null,
+          "factionId": 4,
+          "isJuiced": true,
+          "juicedSeconds": 10401335,
+          "topRacingGigling": {
+            "petId": 7136,
+            "name": "#7136",
+            "rarity": 3,
+            "faction": 0,
+            "gender": "Male",
+            "elo": 1852
+          }
+        }
+      }
+    ],
+    "hasMore": true
+  },
+  "https://gigaverse.io/api/racing/leaderboard/elo/9141": {
+    "status": 404,
+    "error": "Failed to fetch"
+  }
+}

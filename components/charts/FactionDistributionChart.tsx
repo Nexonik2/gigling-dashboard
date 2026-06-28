@@ -1,6 +1,20 @@
 "use client";
 
-import { ResponsiveContainer, BarChart, Bar, XAxis, YAxis, Tooltip, CartesianGrid } from 'recharts';
+import { ResponsiveContainer, BarChart, Bar, XAxis, YAxis, Tooltip, CartesianGrid, Cell } from 'recharts';
+
+// Map faction names to their solid hex values established in globals.css
+// Using the #ff1493 fallback for Gigus based on previous project context
+const FACTION_COLORS: Record<string, string> = {
+  'Crusader': '#ef4444',
+  'Summoner': '#eab308',
+  'Archon': '#3b82f6',
+  'Foxglove': '#22c55e',
+  'Chobo': '#ffffff',
+  'Athena': '#a855f7',
+  'Overseer': '#f97316',
+  'Gigus': '#ff1493',
+  'Unaffiliated': '#94a3b8', 
+};
 
 export default function FactionDistributionChart({ data }: { data: any[] }) {
   if (!data || data.length === 0) {
@@ -28,6 +42,12 @@ export default function FactionDistributionChart({ data }: { data: any[] }) {
   return (
     <ResponsiveContainer width="100%" height="100%">
       <BarChart data={chartData} margin={{ top: 10, right: 10, left: -20, bottom: 0 }}>
+        <defs>
+          <linearGradient id="gigusGradient" x1="0" y1="0" x2="1" y2="0">
+            <stop offset="0%" stopColor="var(--color-gigus-start)" />
+            <stop offset="100%" stopColor="var(--color-gigus-end)" />
+          </linearGradient>
+        </defs>
         <CartesianGrid strokeDasharray="3 3" stroke="#334155" vertical={false} />
         <XAxis 
           dataKey="name" 
@@ -49,7 +69,11 @@ export default function FactionDistributionChart({ data }: { data: any[] }) {
           itemStyle={{ color: '#10b981' }}
           formatter={(value: any) => [`${value || 0} Racers`, 'Count']}
         />
-        <Bar dataKey="count" fill="#10b981" radius={[4, 4, 0, 0]} />
+        <Bar dataKey="count" radius={[4, 4, 0, 0]}>
+          {chartData.map((entry, index) => (
+            <Cell key={`cell-${index}`} fill={FACTION_COLORS[entry.name] || '#94a3b8'} />
+          ))}
+        </Bar>
       </BarChart>
     </ResponsiveContainer>
   );

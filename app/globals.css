@@ -44,6 +44,10 @@
   /* Fonts */
   --font-retro: "Press Start 2P", monospace;
   --font-sans: "Inter", sans-serif;
+
+  /* Gradients */
+  --color-gigus-start: #22c55e;
+  --color-gigus-end: #4c1d95;
 }
 
 @layer base {
