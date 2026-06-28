@@ -26,7 +26,7 @@ export default function Home() {
     : leaderboardData?.entries || [];
 
   return (
-    <div className="flex flex-col items-center w-full">
+    <div className="flex flex-col items-center w-full max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
       {/* Hero Section */}
       <div className="text-center mb-12 mt-8">
         <h1 

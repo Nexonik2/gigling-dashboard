@@ -46,7 +46,7 @@ export default function RaceHistoryTable({ filteredRaces, onClearFilters }: Race
                   <td className="p-4 font-bold">
                     <Link 
                       href={`/race/${race.raceId}`}
-                      className="text-emerald-400 hover:text-emerald-300 transition-colors"
+                      className="text-[var(--color-interactive)] hover:text-emerald-300 transition-colors"
                     >
                       #{race.raceId}
                     </Link>
@@ -62,7 +62,7 @@ export default function RaceHistoryTable({ filteredRaces, onClearFilters }: Race
                       {sortedPetIds.map((petId: number) => {
                         const rank = race.finalRanking.indexOf(petId) + 1;
                         let rankColor = 'text-slate-500';
-                        let linkColor = 'text-emerald-400 hover:text-emerald-300';
+                        let linkColor = 'text-[var(--color-interactive)] hover:text-emerald-300';
                         let isPodium = false;
 
                         if (rank === 1) {
